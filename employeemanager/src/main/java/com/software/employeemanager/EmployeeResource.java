@@ -12,6 +12,7 @@ import java.util.List;
 @Transactional
 @RestController
 @RequestMapping("/employee")
+@CrossOrigin(origins = "http://localhost:4200")
 public class EmployeeResource {
     private final EmployeeService employeeService;
 
